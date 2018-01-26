@@ -1,0 +1,41 @@
+
+.main-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-grow: 1;
+
+}
+
+.main-banner-title {
+  svg {
+    width: 1000px;
+  }
+}
+
+.main-banner-text {
+  max-width: 840px;
+  font-size: 19px;
+  color: rgba(#fff, 0.35);
+  text-align: center;
+}
+
+.main-banner-button {
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 25px 50px;
+  border-radius: 40px;
+  border: 1px solid rgba(#fff, 0.8);
+  background: rgba(#fff, 0.8);
+  transition: 0.5 all;
+}
+
+.main-banner-button:hover {
+  background: $color-main;
+  color: #222;
+  border-color: $color-main;
+}

@@ -1,7 +1,27 @@
-*, *:after, *:before {
-    box-sizing: border-box;
-}
+@import "variables.scss";
 
-body {
-    margin:0;
-}
+@import "layout.scss";
+@import "page-nav.scss";
+@import "page-header.scss";
+
+
+@import "main-banner-svg.scss";
+@import "main-parallax.scss";
+@import "main-banner.scss";
+@import "main-hero.scss";
+@import "main-love-music.scss";
+@import "main-map";
+@import "main-our-team.scss";
+
+@import "box";
+
+
+
+
+
+
+
+
+
+
+
